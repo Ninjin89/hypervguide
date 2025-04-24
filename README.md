@@ -103,5 +103,6 @@ Start-VM -Name $vm
 
 Wenn VM startet:
 - Rechtsklick → **Verbinden**
+- Auflösung nach dem login einstellen
 - Im Gerätemanager prüfen, ob NVIDIA GPU erkannt wurde.
 
