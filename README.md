@@ -15,7 +15,8 @@ oobe\bypassnro
 ```
 
 3. VM startet neu → Installation fortsetzen
-4. Netzwerkadapter auf **Default Switch** stellen:
+4. Netzwerkadapter auf **Default Switch** stellen wenn Windows installation abgeschlossen ist:
+   - VM muss dafür aus sein!
    - Rechtsklick auf VM → **Einstellungen** → **Netzwerk**
 
 ## NVIDIA Treiber kopieren (Host-PC)
@@ -62,7 +63,7 @@ if($currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administr
 }
 ```
 
-> **Warten, bis "Success" angezeigt wird!**
+> **Warten, bis "Success" angezeigt wird im Terminal!**
 
 ## Innerhalb der VM: Dateien kopieren
 
