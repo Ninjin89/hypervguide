@@ -7,7 +7,7 @@
 
 ## Netzwerk-Setup umgehen
 
-1. Bei Netzwerkeinrichtung: `Shift + F10` drücken
+1. Bei der Netzwerkeinrichtung in der Windows installation: `Shift + F10` drücken
 2. Im Terminal eingeben:
 
 ```cmd
